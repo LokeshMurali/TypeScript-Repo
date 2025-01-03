@@ -16,6 +16,10 @@ let values:(string | number)[] = ["Tom", 24,];
 //multi type array with generics:
 let val: Array<string | boolean> = ["peter", true,];
 
+//Array declaration and initialization:
+let cars: Array<string>;
+cars = ["Audi","BMW","Benz","Tesla"];
+
 //Iterate the array using for loop:
 
 let employees: Array<string>;
